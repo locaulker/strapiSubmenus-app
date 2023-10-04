@@ -304,9 +304,11 @@ Hero
 =============== 
 */
 .hero-container {
-  min-height: calc(100vh-5rem);
+  min-height: calc(100vh - 5rem);
   display: grid;
   place-items: center;
+}
+.hero-center {
   color: var(--white);
   width: var(--fluid-width);
   max-width: var(--max-width);
